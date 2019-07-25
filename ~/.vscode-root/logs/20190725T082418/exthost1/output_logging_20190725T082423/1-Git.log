@@ -1,0 +1,36 @@
+Looking for git in: git
+Using git 2.22.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/stark/Documents/GIT/Date-Function
+> git rev-parse --show-toplevel
+> git status -z -u
+> git rev-parse --git-dir
+> git symbolic-ref --short HEAD
+> git config --get commit.template
+Open repository: /home/stark/Documents/GIT/Email-Function
+> git rev-parse --show-toplevel
+> git status -z -u
+> git rev-parse --git-dir
+> git rev-parse master
+> git config --get commit.template
+Open repository: /home/stark/Documents/GIT/Mobile-Function
+> git rev-parse --show-toplevel
+> git status -z -u
+> git rev-parse --git-dir
+> git rev-parse --symbolic-full-name master@{u}
+> git config --get commit.template
+Open repository: /home/stark/Documents/GIT/Name-Function
+> git rev-parse --show-toplevel
+> git status -z -u
+> git rev-parse --git-dir
+> git rev-list --left-right master...refs/remotes/origin/master
+> git config --get commit.template
+Open repository: /home/stark/Documents/GIT/Telephone-Function
+> git status -z -u
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git symbolic-ref --short HEAD
+Failed to watch ref '/home/stark/Documents/GIT/Date-Function/.git/refs/remotes/origin/master'. Ref is most likely packed.
+> git rev-parse master

@@ -1,0 +1,11 @@
+[2019-07-25 08:25:07.538] [renderer1] [error] Data tree node not found: [object Object]: Error: Data tree node not found: [object Object]
+    at X.getDataNode (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:968:904)
+    at X.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:967:201)
+    at Generator.next (<anonymous>)
+    at r (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:35:293)
+[2019-07-25 08:25:26.568] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Date-Function/.vscode'
+[2019-07-25 08:25:26.569] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Date-Function/.vscode'
+[2019-07-25 08:25:26.570] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Email-Function/.vscode'
+[2019-07-25 08:25:26.570] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Email-Function/.vscode'
+[2019-07-25 08:25:26.570] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Name-Function/.vscode'
+[2019-07-25 08:25:26.570] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Name-Function/.vscode'
