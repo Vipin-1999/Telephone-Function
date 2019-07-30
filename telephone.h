@@ -13,7 +13,7 @@ class Telephone{
         bool Validate(std::string);
         bool Validate(std::string, std::string);
         bool Validate(std::string, std::string, std::string);
-        std::string Random(bool);
+        std::string Random(bool); 
         std::string Random(bool, std::string);
         std::string Random(bool, std::string, std::string);
         std::string Generate(int);
@@ -21,3 +21,15 @@ class Telephone{
 };
 
 #endif 
+
+NBIND_CLASS(Telephone){
+    construct<>();
+    multimethod(Validate, args(std::string), "Validate");
+    multimethod(Validate, args(std::string, std::string), "ValidateWithCountryCode");
+    multimethod(Validate, args(std::string, std::string, std::string), "ValidateWithAreaCode");
+    multimethod(Random, args(bool), "Random");
+    multimethod(Random, args(bool, std::string), "RandomWithCountryCode");
+    multimethod(Random, args(bool, std::string), "RandomWithAreaCode");
+    method(Generate);
+    method(Generate_Invalid);
+}

@@ -341,8 +341,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -1358,5 +1357,22 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e"
+    "themeBackground": "#1e1e1e",
+    "windowsState": {
+        "lastActiveWindow": {
+            "workspaceIdentifier": {
+                "id": "2d919f94428032fa39f791e00415dd90",
+                "configURIPath": "file:///home/stark/Documents/GIT/Telephone-Function/~/.vscode-root/Workspaces/1564023307627/workspace.json"
+            },
+            "backupPath": "/home/stark/Documents/GIT/Telephone-Function/~/.vscode-root/Backups/2d919f94428032fa39f791e00415dd90",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 27,
+                "width": 1280,
+                "height": 693
+            }
+        },
+        "openedWindows": []
+    }
 }

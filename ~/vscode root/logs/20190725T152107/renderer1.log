@@ -1,0 +1,3 @@
+[2019-07-25 15:21:49.750] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/.vscode'
+[2019-07-25 15:21:49.756] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/.vscode'
+[2019-07-25 15:43:21.174] [renderer1] [warning] {}
