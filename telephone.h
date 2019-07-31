@@ -6,7 +6,7 @@
 #include<regex>
 typedef unsigned long size_t;
 
-// #include "nbind/nbind.h"
+#include "nbind/nbind.h"
 
 class Telephone{
     public:
@@ -22,7 +22,7 @@ class Telephone{
 
 #endif 
 
-NBIND_CLASS(Telephone){
+NBIND_CLASS(Telephone)      {
     construct<>();
     multimethod(Validate, args(std::string), "Validate");
     multimethod(Validate, args(std::string, std::string), "ValidateWithCountryCode");

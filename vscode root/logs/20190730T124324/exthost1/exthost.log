@@ -66,3 +66,5 @@
 [2019-07-30 12:45:05.074] [exthost] [info] eager extensions activated
 [2019-07-30 12:45:25.711] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
 [2019-07-30 12:45:25.711] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-07-30 12:53:13.466] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2019-07-30 12:53:13.466] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/markdown-language-features/dist/extension

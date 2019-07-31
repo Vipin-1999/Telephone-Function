@@ -3,3 +3,14 @@
     at X.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:967:201)
     at Generator.next (<anonymous>)
     at r (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:35:293)
+[2019-07-30 12:52:42.201] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Date-Function/.vscode'
+[2019-07-30 12:52:42.201] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Date-Function/.vscode'
+[2019-07-30 12:52:42.202] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Email-Function/.vscode'
+[2019-07-30 12:52:42.202] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Email-Function/.vscode'
+[2019-07-30 12:52:42.203] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Name-Function/.vscode'
+[2019-07-30 12:52:42.203] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Name-Function/.vscode'
+[2019-07-30 12:52:42.203] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Password-Function/.vscode'
+[2019-07-30 12:52:42.203] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Password-Function/.vscode'
+[2019-07-30 12:52:42.204] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Pincode/.vscode'
+[2019-07-30 12:52:42.204] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Pincode/.vscode'
+[2019-07-30 13:33:26.526] [renderer1] [warning] UNRESPONSIVE extension host, 'ms-vscode.cpptools' took 100% of 3293.374ms, saved PROFILE here: '/tmp/exthost-0b19a4.cpuprofile' [{"id":"gc","total":2735,"percentage":0},{"id":"ms-vscode.cpptools","total":3286982,"percentage":100}]

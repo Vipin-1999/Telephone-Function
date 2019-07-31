@@ -526,8 +526,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -536,8 +535,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1360,5 +1358,22 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e"
+    "themeBackground": "#1e1e1e",
+    "windowsState": {
+        "lastActiveWindow": {
+            "workspaceIdentifier": {
+                "id": "f40894fad8a2a65867e8d665ac90fb97",
+                "configURIPath": "file:///home/stark/Documents/GIT/Telephone-Function/vscode%20root/Workspaces/1564470863184/workspace.json"
+            },
+            "backupPath": "/home/stark/Documents/GIT/Telephone-Function/vscode root/Backups/f40894fad8a2a65867e8d665ac90fb97",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 54,
+                "width": 1280,
+                "height": 666
+            }
+        },
+        "openedWindows": []
+    }
 }

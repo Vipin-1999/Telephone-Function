@@ -1,0 +1,70 @@
+file:///home/stark/Documents/GIT/Pincode/pincode.cpp {"mtime":1564472493193,"size":1731,"etag":"33k476k8e1oq","orphaned":false}
+#include "pincode.h"
+
+using namespace std;
+int i = 0;
+
+void Pincode :: Ccode()      {
+
+}
+
+bool Pincode::Validate(std::string pin)      {
+    bool flag = std::regex_match(pin, std::regex("[0-9]{6}"));
+    return flag;
+}
+
+bool Pincode::Validate(std::string pin, std::string code)      {
+    bool flag = std::regex_match(pin, std::regex(code+"[0-9]{3}"));    
+    return flag;    
+}
+
+std::string Pincode::Random(bool x){
+    std::string Full_number;
+    srand(time(0)+(i++));
+    if(x==1)        { 
+        Full_number += Generate(6);
+    }
+    else        {
+        Full_number += Generate_Invalid(5);
+    }
+    return Full_number;
+}
+
+std::string Pincode::Random(bool x, std::string code){
+    std::string Full_number = code;
+    srand(time(0)+(i++));
+    if(x==1)        { 
+        Full_number += Generate(4);
+    }
+    else        {
+        Full_number += Generate_Invalid(rand()%2);
+    }
+    return Full_number;
+}
+
+std::string Pincode::Generate(int length)        {
+    auto randchar = []() -> char    {
+        const char charset[] = "0123456789";
+        const size_t max_index = (sizeof(charset) - 1);
+        return charset[rand() % max_index];
+    };
+    std::string str(length-1,0);
+    srand(time(0) + i++);
+    std::generate_n(str.begin(), length-1, randchar);
+    return str;
+}
+
+std::string Pincode::Generate_Invalid(int length)        {
+    auto randchar = []() -> char    {
+        const char charset[] =
+        "1234567890";
+        const size_t max_index = (sizeof(charset) - 1);
+        return charset[ rand() % max_index ];
+    };
+    std::string str(length,0);
+    srand(time(0)+i++);
+    std::generate_n( str.begin(), length, randchar );
+    if(Validate(str))
+        Generate_Invalid(length);
+    return str;
+}
