@@ -6,7 +6,7 @@
 #include<regex>
 typedef unsigned long size_t;
 
-#include "nbind/nbind.h"
+// #include "nbind/nbind.h"
 
 class Telephone{
     public:
@@ -22,14 +22,14 @@ class Telephone{
 
 #endif 
 
-NBIND_CLASS(Telephone)      {
-    construct<>();
-    multimethod(Validate, args(std::string), "Validate");
-    multimethod(Validate, args(std::string, std::string), "ValidateWithCountryCode");
-    multimethod(Validate, args(std::string, std::string, std::string), "ValidateWithAreaCode");
-    multimethod(Random, args(bool), "Random");
-    multimethod(Random, args(bool, std::string), "RandomWithCountryCode");
-    multimethod(Random, args(bool, std::string), "RandomWithAreaCode");
-    method(Generate);
-    method(Generate_Invalid);
-}
+// NBIND_CLASS(Telephone)      {
+//     construct<>();
+//     multimethod(Validate, args(std::string), "Validate");
+//     multimethod(Validate, args(std::string, std::string), "ValidateWithCountryCode");
+//     multimethod(Validate, args(std::string, std::string, std::string), "ValidateWithAreaCode");
+//     multimethod(Random, args(bool), "Random");
+//     multimethod(Random, args(bool, std::string), "RandomWithCountryCode");
+//     multimethod(Random, args(bool, std::string), "RandomWithAreaCode");
+//     method(Generate);
+//     method(Generate_Invalid);
+// }
